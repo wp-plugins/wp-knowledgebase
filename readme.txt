@@ -33,8 +33,10 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 
 = User Examples =
 
-*	[Cub Themes](http://cubthemes.com/support/)
-*	[Orpheus Android App](http://orpheus-app.com/knowledgebase) 
+Here are some great examples from our users showing WP Knowledgebase in use.
+
+*	[Cub Themes](http://cubthemes.com/support/) knowledgebase
+*	[Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
 
 = Languages =
 
@@ -43,7 +45,7 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 * Dutch
 * Bulgarian
 
-Thank you to all translators for your kind contribution - it is very much appreciated.
+Translators, thank you all for your contribution to this plugin. Much appreciated.
 
 If you'd like to help translate this plugin into your language please get in touch. It's very easy - you don't have to know any code and it's a great way to contribute to the WordPress community. Please [contact Maeve](http://www.enigmaplugins.com/contact/)
 
