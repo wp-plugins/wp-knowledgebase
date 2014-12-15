@@ -33,8 +33,8 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 
 = User Examples =
 
-*	[Cub Themes] (http://cubthemes.com/support/)
-*	[Orpheus Android App] (http://orpheus-app.com/) 
+*	[Cub Themes](http://cubthemes.com/support/)
+*	[Orpheus Android App](http://orpheus-app.com/) 
 
 = Languages =
 
