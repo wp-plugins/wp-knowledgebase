@@ -27,9 +27,14 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 * Works across all major browsers and devices - IE8+, Safari, Firefox, Chrome
 * Editable slug (default is /knowledgebase )
 
-= Demo =
+= Official Demo =
 
 *	[Click here](http://demo.enigmaweb.com.au/knowledgebase/) for out-of-the-box demo
+
+= User Examples =
+
+*	[Cub Themes] (http://cubthemes.com/support/)
+*	[Orpheus Android App] (http://orpheus-app.com/) 
 
 = Languages =
 
