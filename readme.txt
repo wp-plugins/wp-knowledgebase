@@ -33,7 +33,14 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 
 = Languages =
 
-Just English right now... but it's translation ready so if you'd like to help with a translation please get in touch. It's very easy - you don't have to know any code and it's a great way to contribute to the WordPress community. Please [contact Maeve](http://www.enigmaplugins.com/contact/)
+* English
+* German
+* Dutch
+* Bulgarian
+
+Thank you to all translators for your kind contribution - it is very much appreciated.
+
+If you'd like to help translate this plugin into your language please get in touch. It's very easy - you don't have to know any code and it's a great way to contribute to the WordPress community. Please [contact Maeve](http://www.enigmaplugins.com/contact/)
 
 
 == Installation ==
@@ -55,10 +62,6 @@ Yes, use this php snippet `<?php kbe_search_form(); ?>`
 = How can I customise the design? =
 
 You can do some basic presentation adjustments via Knowledgebase > Settings. Beyond this, you can completely customise the design via your theme css. You can use !important attribute to override the plugin css if needed.
-
-= Can I use WP Knowledgebase in my Language? =
-
-Yes, the plugin is internationalized and ready for translation. If you would like to help with a translation please [contact me](http://www.enigmaweb.com.au/contact)
 
 = Can import/export WP Knowledgebase data? =
 
