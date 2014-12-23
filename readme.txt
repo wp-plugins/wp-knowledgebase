@@ -3,7 +3,7 @@ Contributors: EnigmaWeb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEJ9HFWJ94BG4
 Tags: WP Knowledgebase, knowledgebase, knowledge base, faqs, wiki
 Requires at least: 3.1
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,7 +34,6 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 = User Examples =
 
 Here are some great examples from our users showing WP Knowledgebase in use.
-
 *	[Cub Themes](http://cubthemes.com/support/) knowledgebase
 *	[Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
 
