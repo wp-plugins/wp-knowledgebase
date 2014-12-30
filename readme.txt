@@ -54,6 +54,8 @@ If you'd like to help translate this plugin into your language please get in tou
 1. Upload the `wp-knowledgebase` folder to the `/wp-content/plugins/` directory or install it from the plugin directory via your Plugins dash.
 1. Activate the WP Knowledgebase plugin through the 'Plugins' menu in WordPress
 1. Configure the plugin by going to the `Knowledgebase` tab that appears in your admin menu.
+
+Note that a Page will be created automatically for the Knowledgebase, and the page template KBE will be assigned. If you want to create your own page you can do so, but make sure you manually assign the KBE page template.
  
 == Frequently Asked Questions ==
 
@@ -64,6 +66,11 @@ Please go to Settings > Permalinks and resave your permalink structure.
 = Can I add the search bar to my theme template manually? =
 
 Yes, use this php snippet `<?php kbe_search_form(); ?>`
+
+= Where is the Knowledgebase page? =
+
+When you install the plugin, a Page will be created automatically for the Knowledgebase, and the page template KBE will be assigned. By default it is at /knowledgebase
+If you want to create your own page you can do so, but make sure you manually assign the KBE page template and update the slug on the plugin Settings screen.
 
 = How can I customise the design? =
 
