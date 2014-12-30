@@ -34,8 +34,9 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 = User Examples =
 
 Here are some great examples from our users showing WP Knowledgebase in use.
-*	[Cub Themes](http://cubthemes.com/support/) knowledgebase
-*	[Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
+* [Cub Themes](http://cubthemes.com/support/) knowledgebase
+* [Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
+* [OzBeans](http://ozbeanz.com.au/knowledgebase/) - IT consultants
 
 = Languages =
 
@@ -87,10 +88,18 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.0.1 =
+* Function fixed which was assigning template to the page
+* Theme styling issue fixed
+
 = 1.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Function fixed which was assigning template to the page
+* Theme styling issue fixed
 
 = 1.0 =
 * Initial release

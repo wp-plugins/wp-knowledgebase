@@ -25,9 +25,9 @@
     <?php
         if(KBE_BREADCRUMBS_SETTING == 1){
     ?>
-        <div class="kbe_breadcrum">
-            <?php echo kbe_breadcrumbs(); ?>
-        </div>
+            <div class="kbe_breadcrum">
+                <?php echo kbe_breadcrumbs(); ?>
+            </div>
     <?php
         }
     ?>
@@ -45,46 +45,44 @@
 <?php
     if(KBE_SIDEBAR_INNER == 0){
 ?>
-    <div id="kbe_content" class="kbe_content_full">
+        <div id="kbe_content" class="kbe_content_full">
 <?php
-	 }
-	elseif(KBE_SIDEBAR_INNER == 1){
+    }elseif(KBE_SIDEBAR_INNER == 1){
 ?>
-    <div id="kbe_content" class="kbe_content_right">
+        <div id="kbe_content" class="kbe_content_right">
 <?php
-	}
-	elseif(KBE_SIDEBAR_INNER == 2){
+    }elseif(KBE_SIDEBAR_INNER == 2){
 ?>
-    <div id="kbe_content" class="kbe_content_left">
+        <div id="kbe_content" class="kbe_content_left">
 <?php
-	}
+    }
 ?>
-        <!--leftcol-->
-        <div class="kbe_leftcol">
-            <!--<articles>-->
-            <div class="kbe_articles">
-                <h2><strong>Tag: </strong><?php echo $kbe_tag_name; ?></h2>
-                
-                <ul>
-            <?php
-                if($kbe_tag_post_qry->have_posts()) :
-                    while($kbe_tag_post_qry->have_posts()) :
-                        $kbe_tag_post_qry->the_post();
-            ?>
-                        <li>
-                            <a href="<?php the_permalink(); ?>">
-                                <?php the_title(); ?>
-                            </a>
-                        </li>
-            <?php
-                    endwhile;
-                endif;
-            ?>
-                </ul>
-                
+            <!--leftcol-->
+            <div class="kbe_leftcol">
+                <!--<articles>-->
+                <div class="kbe_articles">
+                    <h2><strong>Tag: </strong><?php echo $kbe_tag_name; ?></h2>
+
+                    <ul>
+                <?php
+                    if($kbe_tag_post_qry->have_posts()) :
+                        while($kbe_tag_post_qry->have_posts()) :
+                            $kbe_tag_post_qry->the_post();
+                ?>
+                            <li>
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                            </li>
+                <?php
+                        endwhile;
+                    endif;
+                ?>
+                    </ul>
+
+                </div>
             </div>
-        </div>
-        <!--/leftcol-->
+            <!--/leftcol-->
         
 	</div>
 	
@@ -92,25 +90,23 @@
 <?php
     if(KBE_SIDEBAR_INNER == 0){
 ?>
-    <div class="kbe_aside kbe_aside_none">
+        <div class="kbe_aside kbe_aside_none">
 <?php
-    }
-	elseif(KBE_SIDEBAR_INNER == 1){
+    }elseif(KBE_SIDEBAR_INNER == 1){
 ?>
 	<div class="kbe_aside kbe_aside_left">
 <?php
-	}
-	elseif(KBE_SIDEBAR_INNER == 2){
+    }elseif(KBE_SIDEBAR_INNER == 2){
 ?>
 	<div class="kbe_aside kbe_aside_right">
 <?php
+    }
+	if((KBE_SIDEBAR_INNER == 2) || (KBE_SIDEBAR_INNER == 1)){
+            dynamic_sidebar('kbe_cat_widget');
 	}
-		if((KBE_SIDEBAR_INNER == 2) || (KBE_SIDEBAR_INNER == 1)){
-			dynamic_sidebar('kbe_cat_widget');
-		}
 ?>
-    </div>
-    <!--/aside-->
+        </div>
+        <!--/aside-->
     
 </div>
 <?php
