@@ -33,7 +33,6 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 
 = User Examples =
 
-Here are some great examples from our users showing WP Knowledgebase in use.
 *	[Cub Themes](http://cubthemes.com/support/) knowledgebase
 *	[Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
 *	[OzBeans](http://ozbeanz.com.au/knowledgebase/) - IT consultants
