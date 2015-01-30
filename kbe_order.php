@@ -28,7 +28,7 @@
                 <!--=============== Re Order Catgories ===============-->
                 <div class="kbe_admin_left_content">
                     <div class="kbe_admin_left_heading">
-                        <h3>Category Order</h3>
+                        <h3><?php _e('Category Order','kbe'); ?></h3>
                     </div>
                     <div class="kbe_admin_body">
                         <form name="custom_order_form" method="post" action="">
@@ -104,7 +104,7 @@
                 <!--=============== Re Order Articles ===============-->
                 <div class="kbe_admin_left_content">
                     <div class="kbe_admin_left_heading">
-                        <h3>Article Order</h3>
+                        <h3><?php _e('Article Order','kbe'); ?></h3>
                     </div>
                     <div class="kbe_admin_body">
                         <form name="custom_order_form" method="post" action="">
@@ -214,7 +214,7 @@
                     <tr>
                         <td style="border:0;">
                             <?php _e('Check out the','kbe') ?>
-                            <a href="http://enigmaplugins.com/documentation/" target="_blank">FAQs</a>
+                            <a href="http://enigmaplugins.com/documentation/" target="_blank"><?php _e('FAQs','kbe'); ?></a>
                             <?php _e('and','kbe') ?>
                             <a href="http://wordpress.org/support/plugin/wp_knowledgebase" target="_blank"><?php _e('Support Forums','kbe') ?></a>
                         </td>

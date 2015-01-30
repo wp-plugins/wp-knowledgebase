@@ -39,7 +39,7 @@
             <div class="kbe_admin_left_bar">
                 <div class="kbe_admin_left_content">
                     <div class="kbe_admin_left_heading">
-                        <h3>Settings</h3>
+                        <h3><?php _e('Settings','kbe'); ?></h3>
                     </div>
                     <div class="kbe_admin_settings">
                         <form method="post" action="options.php">
@@ -61,7 +61,10 @@
                                 </td>
                                 <td colspan="3">
                                 <input type="text" name="kbe_article_qty" id="kbe_article_qty" value="<?php echo get_option('kbe_article_qty'); ?>">
-                                <p><strong>Note:</strong> Set the number of articles to show in each category on KB homepage</p>
+                                <p>
+                                	<strong><?php _e('Note:','kbe'); ?></strong>
+									<?php _e('Set the number of articles to show in each category on KB homepage','kbe'); ?>
+                              	</p>
                                 </td>
                             </tr>
                             <tr>
@@ -150,7 +153,7 @@
                             </tr>
                             <tr>
                                 <td colspan="4" align="right" style="border:0px;">
-                                    <input type="submit" value="Save Changes" name="submit" id="submit">
+                                    <input type="submit" value="<?php _e('Save Changes','kbe'); ?>" name="submit" id="submit">
                                 </td>
                             </tr>
                         </table>
@@ -200,7 +203,7 @@
                     <tr>
                         <td style="border:0;">
                             <?php _e('Check out the','kbe') ?>
-                            <a href="http://wordpress.org/plugins/wp-knowledgebase/faq" target="_blank">FAQs</a>
+                            <a href="http://wordpress.org/plugins/wp-knowledgebase/faq" target="_blank"><?php _e('FAQs','kbe'); ?></a>
                             <?php _e('and','kbe') ?>
                             <a href="http://wordpress.org/support/plugin/wp-knowledgebase" target="_blank"><?php _e('Support Forums','kbe') ?></a>
                         </td>

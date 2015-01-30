@@ -27,26 +27,13 @@ Create an attractive and professional knowledgebase. It's easy to use, easy to c
 * Works across all major browsers and devices - IE8+, Safari, Firefox, Chrome
 * Editable slug (default is /knowledgebase )
 
-= Official Demo =
+= Demo =
 
 *	[Click here](http://demo.enigmaweb.com.au/knowledgebase/) for out-of-the-box demo
 
-= User Examples =
-
-*	[Cub Themes](http://cubthemes.com/support/) knowledgebase
-*	[Orpheus](http://orpheus-app.com/knowledgebase) Android app knowledgebase
-*	[OzBeans](http://ozbeanz.com.au/knowledgebase/) - IT consultants
-
 = Languages =
 
-* English
-* German
-* Dutch
-* Bulgarian
-
-Translators, thank you all for your contribution to this plugin. Much appreciated.
-
-If you'd like to help translate this plugin into your language please get in touch. It's very easy - you don't have to know any code and it's a great way to contribute to the WordPress community. Please [contact Maeve](http://www.enigmaplugins.com/contact/)
+Just English right now... but it's translation ready so if you'd like to help with a translation please get in touch. It's very easy - you don't have to know any code and it's a great way to contribute to the WordPress community. Please [contact Maeve](http://www.enigmaplugins.com/contact/)
 
 
 == Installation ==
@@ -54,8 +41,6 @@ If you'd like to help translate this plugin into your language please get in tou
 1. Upload the `wp-knowledgebase` folder to the `/wp-content/plugins/` directory or install it from the plugin directory via your Plugins dash.
 1. Activate the WP Knowledgebase plugin through the 'Plugins' menu in WordPress
 1. Configure the plugin by going to the `Knowledgebase` tab that appears in your admin menu.
-
-Note that a Page will be created automatically for the Knowledgebase, and the page template KBE will be assigned. If you want to create your own page you can do so, but make sure you manually assign the KBE page template.
  
 == Frequently Asked Questions ==
 
@@ -67,14 +52,13 @@ Please go to Settings > Permalinks and resave your permalink structure.
 
 Yes, use this php snippet `<?php kbe_search_form(); ?>`
 
-= Where is the Knowledgebase page? =
-
-When you install the plugin, a Page will be created automatically for the Knowledgebase, and the page template KBE will be assigned. By default it is at /knowledgebase
-If you want to create your own page you can do so, but make sure you manually assign the KBE page template and update the slug on the plugin Settings screen.
-
 = How can I customise the design? =
 
 You can do some basic presentation adjustments via Knowledgebase > Settings. Beyond this, you can completely customise the design via your theme css. You can use !important attribute to override the plugin css if needed.
+
+= Can I use WP Knowledgebase in my Language? =
+
+Yes, the plugin is internationalized and ready for translation. If you would like to help with a translation please [contact me](http://www.enigmaweb.com.au/contact)
 
 = Can import/export WP Knowledgebase data? =
 
@@ -94,6 +78,10 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.0.2 =
+* Translation issue fixed
+* Miscellaneous minor fixes
+
 = 1.0.1 =
 * Function fixed which was assigning template to the page
 * Theme styling issue fixed
@@ -102,6 +90,10 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Translation issue fixed
+* Miscellaneous minor fixes
 
 = 1.0.1 =
 * Function fixed which was assigning template to the page

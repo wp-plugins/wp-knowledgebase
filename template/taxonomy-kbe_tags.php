@@ -61,7 +61,7 @@
             <div class="kbe_leftcol">
                 <!--<articles>-->
                 <div class="kbe_articles">
-                    <h2><strong>Tag: </strong><?php echo $kbe_tag_name; ?></h2>
+                    <h2><strong><?php _e('Tag:','kbe'); ?> </strong><?php echo $kbe_tag_name; ?></h2>
 
                     <ul>
                 <?php

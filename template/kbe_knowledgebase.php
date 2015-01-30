@@ -62,7 +62,7 @@
             ?>
                     <div class="kbe_category">
                         <h2>
-                            <span class="kbe_count"><?php echo $kbe_taxonomy->count; ?> Articles</span>
+                            <span class="kbe_count"><?php echo $kbe_taxonomy->count; _e(' Articles','kbe'); ?></span>
                             <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>" title="<?php sprintf( __( "View all posts in %s" ), $kbe_term_name ) ?>"><?php echo $kbe_term_name; ?></a>
                         </h2>
                         
@@ -90,13 +90,13 @@
                     ?>
                                 <li>
                                     <a href="<?php the_permalink(); ?>">
-                                        <?php the_title(); ?>
+                                        <?php echo substr(the_title('', '', FALSE), 0, 40); ?>.....
                                     </a>
                                 </li>
                     <?php
                             endwhile;
                         else :
-                            echo "No posts";
+                            echo __("No posts","kbe");
                         endif;
                     ?>
                         </ul>

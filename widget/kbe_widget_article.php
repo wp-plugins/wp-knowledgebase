@@ -104,28 +104,28 @@ class kbe_Article_Widget extends WP_Widget {
         $widgetData = wp_parse_args((array) $widgetData);
 ?>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeArticleHeading'); ?>">Widget Title:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeArticleHeading'); ?>"><?php _e('Article Title:','kbe'); ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeArticleHeading'); ?>" name="<?php echo $this->get_field_name('txtKbeArticleHeading'); ?>" value="<?php echo $widgetData['txtKbeArticleHeading']; ?>" style="width:275px;" />
         </p>    
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeArticleCount'); ?>">Articles Quantity:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeArticleCount'); ?>"><?php _e('Articles Quantity:','kbe') ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeArticleCount'); ?>" name="<?php echo $this->get_field_name('txtKbeArticleCount'); ?>" value="<?php echo $widgetData['txtKbeArticleCount']; ?>" style="width:275px;" />
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeArticleOrder'); ?>">Articles Order:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeArticleOrder'); ?>"><?php _e('Articles Order:','kbe') ?></label>
             <select id="<?php echo $this->get_field_id('txtKbeArticleOrder'); ?>" name="<?php echo $this->get_field_name('txtKbeArticleOrder'); ?>">
-                <option <?php selected($widgetData['txtKbeArticleOrder'], 'ASC') ?> value="ASC">ASC</option>
-                <option <?php selected($widgetData['txtKbeArticleOrder'], 'DESC') ?> value="DESC">DESC</option>
+                <option <?php selected($widgetData['txtKbeArticleOrder'], 'ASC') ?> value="ASC"><?php _e('ASC','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeArticleOrder'], 'DESC') ?> value="DESC"><?php _e('DESC','kbe'); ?></option>
             </select>
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeArticleOrderBy'); ?>">Articles Order by:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeArticleOrderBy'); ?>"><?php _e('Articles Order by:','kbe') ?></label>
             <select id="<?php echo $this->get_field_id('txtKbeArticleOrderBy'); ?>" name="<?php echo $this->get_field_name('txtKbeArticleOrderBy'); ?>">
-                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'name') ?> value="name">By Name</option>
-                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'date') ?> value="date">By Date</option>
-                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'rand') ?> value="rand">By Random</option>
-                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'popularity') ?> value="popularity">By Popularity</option>
-                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'comment_count') ?> value="comment_count">By Comments</option>
+                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'name') ?> value="name"><?php _e('By Name','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'date') ?> value="date"><?php _e('By Date','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'rand') ?> value="rand"><?php _e('By Random','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'popularity') ?> value="popularity"><?php _e('By Popularity','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeArticleOrderBy'], 'comment_count') ?> value="comment_count"><?php _e('By Comments','kbe') ?></option>
             </select>
         </p>
 <?php

@@ -4,7 +4,7 @@
   Plugin URI: http://wordpress.org/plugins/wp-knowledgebase
   Description: Simple and flexible knowledgebase plugin for WordPress
   Author: Enigma Plugins
-  Version: 1.0.1
+  Version: 1.0.2
   Author URI: http://enigmaplugins.com
  */
  
@@ -292,9 +292,9 @@ if((!file_exists($kbe_style)) or (!file_exists($kbe_kbe))or
 	
 //=========> Registering KBE widget area
 register_sidebar(array(
-    'name' => 'WP Knowledgebase Sidebar',
+    'name' => __('WP Knowledgebase Sidebar','kbe'),
     'id' => 'kbe_cat_widget',
-    'description' => 'WP Knowledgebase sidebar area',
+    'description' => __('WP Knowledgebase sidebar area','kbe'),
     'before_widget' => '',
     'after_widget' => '',
     'before_title' => '<h6>',
@@ -356,17 +356,17 @@ function kbe_breadcrumbs(){
         $kbe_bc_name = get_queried_object()->name;
 ?>
         <ul>
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>">Knowledgebase</a></li>
+            <li><a href="<?php echo home_url(); ?>"><?php _e('Home','kbe'); ?></a></li>
+            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>"><?php _e('Knowledgebase' ,'kbe'); ?></a></li>
             <li><?php echo $kbe_bc_name; ?></li>
         </ul>
 <?php
     }elseif(strpos($url, 'kbe_tags') || strpos($url, 'knowledgebase_tags')){
         $kbe_bc_tag_name = get_queried_object()->name;
 ?>
-	<ul>
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>">Knowledgebase</a></li>
+		<ul>
+            <li><a href="<?php echo home_url(); ?>"><?php _e('Home','kbe'); ?></a></li>
+            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>"><?php _e('Knowledgebase' ,'kbe'); ?></a></li>
             <li><?php echo $kbe_bc_tag_name; ?></li>
         </ul>
 <?php
@@ -374,8 +374,8 @@ function kbe_breadcrumbs(){
 	$kbe_search_word = $_GET['s'];
 ?>
 	<ul>
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>">Knowledgebase</a></li>
+            <li><a href="<?php echo home_url(); ?>"><?php _e('Home','kbe'); ?></a></li>
+            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>"><?php _e('Knowledgebase' ,'kbe'); ?></a></li>
             <li><?php echo $kbe_search_word; ?></li>
         </ul>
 <?php
@@ -383,8 +383,8 @@ function kbe_breadcrumbs(){
         $kbe_bc_term = get_the_terms( $post->ID , KBE_POST_TAXONOMY );
 ?>
         <ul>
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>">Knowledgebase</a></li>
+            <li><a href="<?php echo home_url(); ?>"><?php _e('Home','kbe'); ?></a></li>
+            <li><a href="<?php echo get_permalink( get_page_by_path(KBE_PLUGIN_SLUG)); ?>"><?php _e('Knowledgebase' ,'kbe'); ?></a></li>
 <?php
             foreach($kbe_bc_term as $kbe_tax_term){
 ?>
@@ -396,14 +396,14 @@ function kbe_breadcrumbs(){
 <?php
             }
 ?>
-            <li><?php echo substr(the_title('', '', FALSE), 0, 90); ?></li>
+            <li><?php echo substr(the_title('', '', FALSE), 0, 50); ?>....</li>
         </ul>
 <?php
     }else{
 ?>
         <ul>
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li>Knowledgebase</li>
+            <li><a href="<?php echo home_url(); ?>"><?php _e('Home','kbe'); ?></a></li>
+            <li><?php _e('Knowledgebase' ,'kbe'); ?></li>
         </ul>
 <?php
     }

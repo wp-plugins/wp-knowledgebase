@@ -42,8 +42,8 @@ class kbe_Cat_Widget extends WP_Widget {
             $kbe_cat_args = array(
                 'number' 	=>  $kbe_widget_cat_count,
                 'taxonomy'	=>  'kbe_taxonomy',
-                'orderby'       =>  'terms_order',
-                'order'         =>  'ASC'
+                'orderby'   =>  'terms_order',
+                'order'     =>  'ASC'
             );
 			
             $kbe_cats = get_categories($kbe_cat_args);
@@ -76,11 +76,11 @@ class kbe_Cat_Widget extends WP_Widget {
         $widgetData = wp_parse_args((array) $widgetData);
 ?>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeCatHeading'); ?>">Widget Title:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeCatHeading'); ?>"><?php _e('Category Title:','kbe') ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeCatHeading'); ?>" name="<?php echo $this->get_field_name('txtKbeCatHeading'); ?>" value="<?php echo $widgetData['txtKbeCatHeading']; ?>" style="width:275px;" />
         </p>    
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeCatCount'); ?>">Catgory Quantity:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeCatCount'); ?>"><?php _e('Catgory Quantity:','kbe'); ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeCatCount'); ?>" name="<?php echo $this->get_field_name('txtKbeCatCount'); ?>" value="<?php echo $widgetData['txtKbeCatCount']; ?>" style="width:275px;" />
         </p>
 <?php

@@ -78,7 +78,7 @@ function kbe_taxonomies() {
     register_taxonomy( 'kbe_taxonomy', array( 'kbe_knowledgebase' ), array(
         'hierarchical'      => 	true,
         "labels"            => 	$labels,
-        "singular_label"    => 	"Knowledgebase Category",
+        "singular_label"    => 	__( 'Knowledgebase Category', 'kbe'),
         'show_ui'           => 	true,
         'query_var'         => 	true,
         'rewrite'           => 	array( 'slug' => 'knowledgebase_category', 'with_front' => true )
@@ -171,14 +171,14 @@ function kbe_custom_columns($column){
             echo get_the_term_list( $post->ID, 'kbe_tags' , ' ' , ', ' , '' );
         break;
         case "comment":         
-            comments_number( 'No Comments', '1 Comment', '% Comments' );
+            comments_number( __('No Comments','kbe'), __('1 Comment','kbe'), __('% Comments','kbe') );
         break;
         case "views":
             $views = get_post_meta($post->ID, 'kbe_post_views_count', true);
             if($views){
-                echo $views .__(' Views', 'framework');
+                echo $views .__(' Views', 'kbe');
             }else{
-                echo __('No Views', 'framework');
+                echo __('No Views', 'kbe');
             }
         break;
         case "date":         

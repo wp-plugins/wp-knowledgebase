@@ -61,7 +61,7 @@ class kbe_Search_Widget extends WP_Widget {
         $widgetData = wp_parse_args((array) $widgetData);
 ?>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeSearchHeading'); ?>">Widget Title:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeSearchHeading'); ?>"><?php _e('Search Title:','kbe'); ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeSearchHeading'); ?>" name="<?php echo $this->get_field_name('txtKbeSearchHeading'); ?>" value="<?php echo $widgetData['txtKbeSearchHeading']; ?>" style="width:275px;" />
         </p>
 <?php

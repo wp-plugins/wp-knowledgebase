@@ -87,18 +87,18 @@ class kbe_Tags_Widget extends WP_Widget {
         $widgetData = wp_parse_args((array) $widgetData);
 ?>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeTagsHeading'); ?>">Widget Title:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeTagsHeading'); ?>"><?php _e('Tag Title:','kbe'); ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeTagsHeading'); ?>" name="<?php echo $this->get_field_name('txtKbeTagsHeading'); ?>" value="<?php echo $widgetData['txtKbeTagsHeading']; ?>" style="width:275px;" />
         </p>    
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeTagsCount'); ?>">Tags Quantity:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeTagsCount'); ?>"><?php _e('Tags Quantity:','kbe'); ?></label>
             <input id="<?php echo $this->get_field_id('txtKbeTagsCount'); ?>" name="<?php echo $this->get_field_name('txtKbeTagsCount'); ?>" value="<?php echo $widgetData['txtKbeTagsCount']; ?>" style="width:275px;" />
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id('txtKbeTagsStyle'); ?>">Tags style:</label>
+            <label for="<?php echo $this->get_field_id('txtKbeTagsStyle'); ?>"><?php _e('Tags Style:','kbe'); ?></label>
             <select id="<?php echo $this->get_field_id('txtKbeTagsStyle'); ?>" name="<?php echo $this->get_field_name('txtKbeTagsStyle'); ?>">
-                <option <?php selected($widgetData['txtKbeTagsStyle'], 'flat') ?> value="flat">Flat</option>
-                <option <?php selected($widgetData['txtKbeTagsStyle'], 'list') ?> value="list">List</option>
+                <option <?php selected($widgetData['txtKbeTagsStyle'], 'flat') ?> value="flat"><?php _e('Flat','kbe'); ?></option>
+                <option <?php selected($widgetData['txtKbeTagsStyle'], 'list') ?> value="list"><?php _e('List','kbe'); ?></option>
             </select>
         </p>
 <?php

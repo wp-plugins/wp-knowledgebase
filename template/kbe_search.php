@@ -16,7 +16,7 @@ if(!empty($_GET['ajax']) ? $_GET['ajax'] : null) {
 <?php
     } else {
 ?>
-        <span class="kbe_no_result">Search result not found......</span>
+        <span class="kbe_no_result"><?php _e('Search result not found......','kbe'); ?></span>
 <?php
     }
 } else {
@@ -85,7 +85,7 @@ if(!empty($_GET['ajax']) ? $_GET['ajax'] : null) {
                         <p><?php echo kbe_short_content(300); ?></p>
                         <div class="kbe_read_more">
                             <a href="<?php the_permalink(); ?>">
-                                Read more...
+                                <?php _e('Read more...','kbe') ?>
                             </a>
                         </div>
                     </li>
