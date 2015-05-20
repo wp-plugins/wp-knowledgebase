@@ -106,8 +106,6 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
-* Languages added
-
 = 1.0.4 =
 * Breadcrumbs text issue fixed.
 * Added support for Sub-Categories.
@@ -115,6 +113,7 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Added support for multi site.
 * Some Code Correction.
 * Added support for revisions.
+* Languages added
 
 = 1.0.3 =
 * Minor CSS Changes.
@@ -142,6 +141,7 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Added support for multi site.
 * Some Code Correction.
 * Added support for revisions.
+* Languages added
 
 = 1.0.3 =
 * Minor CSS Changes.
