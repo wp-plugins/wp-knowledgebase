@@ -3,7 +3,7 @@ Contributors: EnigmaWeb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEJ9HFWJ94BG4
 Tags: WP Knowledgebase, knowledgebase, knowledge base, faqs, wiki
 Requires at least: 3.1
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -78,7 +78,7 @@ This feature is not built into the plugin, however you can use another plugin to
 
 = How can I customise the design? =
 
-You can do some basic presentation adjustments via Knowledgebase > Settings. Beyond this, you can completely customise the design by editing the template files which the plugin copes into your active theme directory.
+You can do some basic presentation adjustments via Knowledgebase > Settings. Beyond this, you can completely customise the design via your theme css.
 
 = It does not look good on my theme =
 
@@ -106,8 +106,17 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
-= 1.0.3 =
 * Languages added
+
+= 1.0.4 =
+* Breadcrumbs text issue fixed.
+* Added support for Sub-Categories.
+* Added support for child theme.
+* Added support for multi site.
+* Some Code Correction.
+* Added support for revisions.
+
+= 1.0.3 =
 * Minor CSS Changes.
 * Breadcrumbs link issue fixed.
 * Truncate function removed from the titles 
@@ -126,8 +135,15 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Upgrade Notice ==
 
+= 1.0.4 =
+* Breadcrumbs text issue fixed.
+* Added support for Sub-Categories.
+* Added support for child theme.
+* Added support for multi site.
+* Some Code Correction.
+* Added support for revisions.
+
 = 1.0.3 =
-* Languages added
 * Minor CSS Changes.
 * Breadcrumbs link issue fixed.
 * Truncate function removed from the titles 
