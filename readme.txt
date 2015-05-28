@@ -107,6 +107,11 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.0.5 =
+* Issue with child theme fixed.
+* Function corrected for copying plugin template files in to active theme folder
+* Added support for tags
+
 = 1.0.4 =
 * Breadcrumbs text issue fixed.
 * Added support for Sub-Categories.
@@ -134,6 +139,11 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+* Issue with child theme fixed.
+* Function corrected for copying plugin template files in to active theme folder
+* Added support for tags
 
 = 1.0.4 =
 * Breadcrumbs text issue fixed.
