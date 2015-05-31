@@ -48,6 +48,8 @@ On activation, the plugin will create a page called "Knowledgebase" and on that 
 * Spanish - Spain
 * Spanish - USA
 * Spanish - Puerto Rico
+* Brazilian Portaguese
+* Swedish
 
 Translators, thank you all for your contribution to this plugin. Much appreciated.
 
@@ -110,7 +112,6 @@ If you've tried all the obvious stuff and it's still not working please request 
 = 1.0.5 =
 * Issue with child theme fixed.
 * Function corrected for copying plugin template files in to active theme folder
-* Added support for tags
 
 = 1.0.4 =
 * Breadcrumbs text issue fixed.
@@ -143,7 +144,6 @@ If you've tried all the obvious stuff and it's still not working please request 
 = 1.0.5 =
 * Issue with child theme fixed.
 * Function corrected for copying plugin template files in to active theme folder
-* Added support for tags
 
 = 1.0.4 =
 * Breadcrumbs text issue fixed.
