@@ -109,6 +109,9 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.0.7 =
+* CSS file path corrected.
+
 = 1.0.6 =
 * Update query corrected on order.
 
@@ -143,6 +146,9 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.7 =
+* CSS file path corrected.
 
 = 1.0.6 =
 * Update query corrected on order.
