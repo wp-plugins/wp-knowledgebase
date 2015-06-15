@@ -109,6 +109,11 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.0.8 =
+* Added strip_tags() function for excerpt for the search results.
+* Query corrected for getting KBE title and fixing the activation error.
+* Images path corrected in CSS
+
 = 1.0.7 =
 * CSS file path corrected.
 
@@ -146,6 +151,11 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+* Added strip_tags() function for excerpt for the search results.
+* Query corrected for getting KBE title and fixing the activation error.
+* Images path corrected in CSS
 
 = 1.0.7 =
 * CSS file path corrected.
